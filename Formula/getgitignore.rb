@@ -7,7 +7,6 @@ class Getgitignore < Formula
   homepage "https://github.com/joeds13/getgitignore"
   version "0.0.1"
   license "MIT"
-  bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
