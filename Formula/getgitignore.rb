@@ -35,6 +35,6 @@ class Getgitignore < Formula
   end
 
   test do
-    system "#{bin}/getgitignore version"
+    system "#{bin}/getgitignore", "version"
   end
 end
